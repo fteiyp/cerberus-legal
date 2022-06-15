@@ -1,6 +1,4 @@
-
 <div style="display: flex; flex-direction: column;">
-
   <!-- Landing page: a svg file and button -->
   <div class="frontpage">
     <!-- Entire background of frontpage landing in an SVG -->
@@ -8,11 +6,10 @@
     <!-- Cases button in bottom right corner if user is signed in -->
     <% if user_signed_in? %>
       <%= link_to cases_path, class: "cases-button" do %>
-          Cases &nbsp; <i class="fas fa-arrow-right"></i>
+        Cases &nbsp; <i class="fas fa-arrow-right"></i>
       <% end %>
     <% end %>
   </div>
-
   <div class="row-home">
     <div class="card-home">
       <div class="card-text-home left">
@@ -23,7 +20,6 @@
       <%= image_tag "infringing_pages.svg", style: "width: 220px;" %>
     </div>
   </div>
-
   <div class="row-home">
     <div class="card-home">
       <%= image_tag "webpage.svg", style: "width: 300px;" %>
@@ -34,7 +30,6 @@
       </div>
     </div>
   </div>
-
   <div class="row-home">
     <div class="card-home">
       <div class="card-text-home left">
@@ -45,16 +40,7 @@
       <%= image_tag "briefcase.svg", style: "width: 300px" %>
     </div>
   </div>
-
 </div>
-
-
-
-
-
-
-
-
 <!--   <div class="how-it-works-card">
     <div class="h2-p-hiw-card text-color">
       <h2 id="h2-style">What is the issue?</h2>
@@ -82,9 +68,8 @@
       <%= image_tag "logo.png", :id => "img-style" %>
     </div>
   </div> -->
-
-  <!-- Login Sign-In Bar -->
-  <!-- <div style="display: flex; justify-content: center; height: 30vh;">
+<!-- Login Sign-In Bar -->
+<!-- <div style="display: flex; justify-content: center; height: 30vh;">
     <div class="login-signin-bar">
       <div>
         <%= link_to 'Login', user_session_path, class: 'btn btn-ghost' %>
@@ -98,5 +83,3 @@
       </form>
     </div>
   </div> -->
-
-

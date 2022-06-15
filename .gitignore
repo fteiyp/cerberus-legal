@@ -4,8 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore the annoying file
+# Ignore pitch notes
+ceberus_pitch_notes.txt
 
+# Ignore the annoying file
 temporary.png
 
 # Ignore bundler config.

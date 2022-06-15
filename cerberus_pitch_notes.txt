@@ -1,0 +1,39 @@
+
+Home:
+- Im a copyright lawyer who defends a lot of creative individuals that get their content taken and reposted online
+- It's difficult to keep track of what websites take my client's content and whether they continue to do so after receiving cease and desist letters
+- I need 2 interns to keep track of all the various infringements and check websites periodically that have infringed in the past
+- I also need a way to verify the validity of accusation because screenshots are not trusted in court
+- I have just found Cerberus that can handle all of this for me. (*** its a case management system that can take authenticated screenshots of infringing websites.
+- Like any good lawyer, I made my intern set it up for me and today so I'm going to check it out.
+
+
+Cases#Index:
+- My first impression of the main cases page is that it is clear and organized: I can see all of the cases I have open with the various clients that I have.
+- I can conveniently see important information like the number of infringing websites and how many total screenshots each case has.
+- This Active Monitor feature seems great, I'm excited to see how that works.
+- I'll open up one of these cases and to see how it's organized.
+- This one has actually been a huge pain for me, my client ______ keeps having graphics taken another artist on instagram.
+
+
+Case#show:
+- Wow this is great, the case has all the information I need to keep track of - title, legal number (?), date and description.
+- ...and it has all the infringing sites listed below with thumbnails and information.
+- I'm going to open one of these up.
+
+
+Case#infringement:
+- Great, I can see all of the screenshots displayed over time.
+- I also see that I can take a single screenshot with these buttons on the side, or set the timer to take screenshots at whatever interval I want.
+- This website is taking graphics all the time so I'm going to change the interval to daily.
+- ...and now I'm going to actually check out the screenshot.
+
+Screenshot:
+- Looks good to me, also handy to have the print and export features for when I need to share the infringements.
+- ...and going back I see that I can export an entire folder of all my website screenshots.
+- This is great, but now I actually need to add a new infringing page because this client said that their content is being illegally used on another part of the infringing website.
+
+*** My Cases in upper right corner
+
+
+
