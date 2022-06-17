@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
-ruby '2.6.3'
+ruby '2.7.6'
 
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
+# Puma as web server (responsds to HTTP requests)
 gem 'puma'
 gem 'rails', '5.2.3'
 gem 'redis'
@@ -15,6 +16,8 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 # Image processing gems (screenshot API and cloudinary uploader)
 gem 'cloudinary', '~> 1.9.1'

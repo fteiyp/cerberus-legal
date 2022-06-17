@@ -32,7 +32,7 @@ class CasesController < ApplicationController
     @cases.each { |c| @snapshots_count += c.snapshots.count }
 
     @base_urls = []
-    @latest_snapshots = @cases.first.user.snapshots.order(time: :desc).first(3)
+    @latest_snapshots = @cases.present? ? @cases.first.user.snapshots.order(time: :desc).first(3) : []
     @latest_snapshots.each { |snapshot| @base_urls << base_url(snapshot.infringement) }
   end
 
