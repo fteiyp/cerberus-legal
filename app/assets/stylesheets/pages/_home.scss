@@ -1,20 +1,17 @@
-
 // TODO - Reid: Add homepage animation after new homepage created
 // #grey_triangle {  }
-
 
 .frontpage img {
   width: 100%;
   margin-bottom: 3vh;
 }
 
-
 .cases-button {
   background-color: white;
   font-size: 2vw;
   border-radius: 6px;
   position: absolute;
-  top: 78vh;
+  top: 50vw;
   right: 21vw;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -60,7 +57,6 @@
   margin-right: 6vw;
 }
 
-
 .login-signin-bar {
   display: flex;
   align-items: center;
@@ -76,7 +72,6 @@
   margin-left: 30px;
 }
 
-
 #home-input {
   position: relative;
   margin-right: 30px;
@@ -88,26 +83,23 @@
   transition-duration: 1s;
   outline: none;
   &:hover {
-    background-color: #DDD;
+    background-color: #ddd;
   }
 }
-
 
 .how-it-works-flexcontainer {
   display: flex;
 }
 
 .how-it-works-card {
-  background: white;                       /* White background */
-  padding: 40px 120px;                     /* Internal space */
-  border-radius: 4px;                      /* Small radius */
+  background: white; /* White background */
+  padding: 40px 120px; /* Internal space */
+  border-radius: 4px; /* Small radius */
   width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
-
 
 .h2-p-hiw-card {
   padding-bottom: 30px;
@@ -115,14 +107,12 @@
 }
 
 .text-color {
-
 }
 
 .img-hiw-card {
   display: flex;
   justify-content: center;
 }
-
 
 #img-style {
   border-radius: 4px;
@@ -133,11 +123,9 @@
   font-size: 80px;
 }
 
-
 #p-style {
   font-size: 24px;
   line-height: 40px;
-
 }
 
 #h2-style {
@@ -145,5 +133,3 @@
   padding-bottom: 20px;
   text-style: bold;
 }
-
-
